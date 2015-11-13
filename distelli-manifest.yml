@@ -5,7 +5,7 @@ zchase/grunt:
 
   PreRelease:
     - npm install
-    - grunt
+    - grunt jshint
 
   PreInstall:
     - sudo apt-get update
