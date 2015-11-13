@@ -9,7 +9,8 @@ gulp.task('default', ['watch']);
 gulp.task('jshint', function() {
   return gulp.src('src/js/magic.js')
     .pipe(jshint())
-    .pipe(jshint.reporter('jshint-stylish'));
+    .pipe(jshint.reporter('jshint-stylish'))
+    .pipe(jshint.reporter("fail"));
 });
 
 // configure which files to watch and what tasks to use on file changes
