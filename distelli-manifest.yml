@@ -1,4 +1,4 @@
-zchase/node-grunt:
+zchase/grunt:
 
   PkgInclude:
     - '*'
