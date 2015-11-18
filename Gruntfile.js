@@ -21,7 +21,7 @@ module.exports = function(grunt) {
        },
 
        // when this task is run, lint the Gruntfile and all js files in src
-       build: ['Grunfile.js', 'src/**/*.js']
+       build: ['Grunfile.js', 'app.js']
      }
 
 

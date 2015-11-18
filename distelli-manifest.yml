@@ -1,11 +1,11 @@
-zchase/grunt:
+zchase/simplegrunt:
 
   PkgInclude:
     - '*'
 
   PreRelease:
     - npm install
-    - gulp jshint
+    - grunt jshint
 
   PreInstall:
     - sudo apt-get update

@@ -7,7 +7,7 @@ gulp.task('default', ['watch']);
 
 // configure the jshint task
 gulp.task('jshint', function() {
-  return gulp.src('src/js/magic.js')
+  return gulp.src('app.js')
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(jshint.reporter("fail"));
