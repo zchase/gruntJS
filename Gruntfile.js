@@ -15,14 +15,20 @@ module.exports = function(grunt) {
 
     // all of our configuration will go here
     // configure jshint to validate js files -----------------------------------
-     jshint: {
-       options: {
-         reporter: require('jshint-stylish') // use jshint-stylish to make our errors look and read good
-       },
-
-       // when this task is run, lint the Gruntfile and all js files in src
-       build: ['Grunfile.js', 'app.js']
-     }
+     coffee: {
+           coffee_to_js: {
+             options: {
+               bare: true,
+               sourceMap: true
+             },
+             expand: true,
+             flatten: true,
+             cwd: "client",
+             src: ["**/*.coffee"],
+             dest: 'client',
+             ext: ".js"
+           }
+         }
 
 
     });

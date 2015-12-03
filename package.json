@@ -8,6 +8,7 @@
     "grunt-contrib-less": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
+    "grunt-contrib-coffee": "latest",
     "gulp": "^3.9.0",
     "gulp-jshint": "^1.12.0",
     "gulp-util": "^3.0.7",
